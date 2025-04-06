@@ -1,5 +1,6 @@
 package com.jakeberryman.meproxy.entry;
 
+import com.jakeberryman.meproxy.MEProxy;
 import com.jakeberryman.meproxy.content.meProxy.MEProxyBlock;
 import com.jakeberryman.meproxy.content.meProxy.MEProxyBlockEntity;
 import com.jakeberryman.meproxy.content.meProxy.MEProxyBlockItem;
@@ -45,6 +46,7 @@ public class Registration {
             REGISTER.register("meproxy",
                     () -> CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup.meproxy"))
+                            .icon(() -> meProxyBlock.get().asItem().getDefaultInstance())
                             .displayItems(
                                     (parameters, output) ->
                                             output.acceptAll(

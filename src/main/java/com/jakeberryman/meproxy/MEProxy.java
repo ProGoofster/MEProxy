@@ -24,6 +24,7 @@ public class MEProxy {
 
     public static final String MODID = "meproxy";
 
+    @SuppressWarnings("removal")
     public MEProxy() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -33,6 +34,7 @@ public class MEProxy {
 
     public static final Registrate REGISTERATE = Registrate.create(MODID);
 
+    @SuppressWarnings("removal")
     public static ResourceLocation asResource(String path) {
         return new ResourceLocation(MODID, path);
     }

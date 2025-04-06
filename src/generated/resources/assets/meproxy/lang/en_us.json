@@ -1,6 +1,5 @@
 {
-
   "block.meproxy.me_proxy": "ME Proxy",
   "itemGroup.meproxy": "ME Proxy",
-  "tooltip.meproxy.me_proxy": "Exposes an ME networks storage"
+  "tooltip.meproxy.me_proxy": "A proxy to access §fME §rnetwork's storage"
 }
