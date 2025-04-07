@@ -1,0 +1,10 @@
+{
+  "parent": "ae2:item/cable_pattern_provider",
+  "textures": {
+    "sides": "meproxy:part/me_proxy_sides",
+    "sidesStatus": "ae2:part/monitor_sides_status",
+    "particle": "meproxy:part/me_proxy_back",
+    "back": "meproxy:part/me_proxy_back",
+    "front": "meproxy:block/me_proxy"
+  }
+}
